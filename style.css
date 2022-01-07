@@ -1,30 +1,134 @@
 img {
-    width:100px;
-    height:auto;
+    width:150px;
+    height:150px;
 }
 
 body {
     font-family: Roboto, sans-serif;
+    color:#E5E7EB;
 }
 
 .header {
     display:flex;
-    justify-content: flex-end;
-    padding: 10px;
-    color:#E5E7EB;
-    background-color: #1F2937;
     font-family: Roboto, sans-serif;
+    justify-content: flex-end;
+    align-items: center;
+    height: 70px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #1F2937;
+}
+
+.header img {
+    height: auto;
+    width: 100px;
 }
 
 ul {
     display: flex;
     list-style-type:  none;
-    gap: 10px;
+    gap: 15px;
     font-size: 18px;
+    color: #E5E7EB;
+    margin: 0;
+    padding: 0;
 }
 
 .logo {
-    display:flex;
     margin-right: auto;
+    display:flex;
 }
 
+button {
+    background-color: #3882F6;
+}
+
+.hero-container {
+    background-color: #1F2937;
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    width:500px;
+    height: 250px;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: 800;
+    color: F9FAF8;
+}
+
+.middle-container {
+    color: #1F2937;
+    height: 400px;
+    text-align: center;
+}
+
+.middle-title {
+    font-size: 36px;
+    font-weight:800;
+    margin-top: 50px;
+    Margin-bottom: 50px;
+}
+
+.middle-container-content {
+    display:flex;
+    justify-content: center;
+    gap:40px;
+}
+
+.middle-container-content img {
+    border-radius:15px;
+}
+.quote-container {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color:#1F2937;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    height: 400px;
+}
+
+.quote-box {
+    width: 500px;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items:flex-end;
+}
+
+.quote-author {
+    font-size:18px;
+    font-style:bold;
+    font-style:normal;
+    
+}
+
+.info-container{
+    display:flex;
+    height: 300px;
+    justify-content:center;
+    align-items: center;
+}
+
+.info-content {
+    background-color:#3882F6;
+    display:flex;
+    height: 80px;
+    width: 600px;
+    padding: 20px 50px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    height: 70px;
+}
