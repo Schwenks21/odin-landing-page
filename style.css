@@ -41,6 +41,17 @@ ul {
 
 button {
     background-color: #3882F6;
+    border-radius:15px;
+    border:none;
+    color: #E5E7EB;
+    font-weight: bold;
+    text-decoration: none;
+    font-size:14px;
+}
+
+.hero-button {
+    width:175px;
+    padding: 10px;
 }
 
 .hero-container {
@@ -52,8 +63,27 @@ button {
 }
 
 .hero-content {
-    width:500px;
-    height: 250px;
+    width:700px;
+    height: 300px;
+    display:flex;
+}
+
+.hero-content img {
+    height: 300px;
+    width:350px;
+}
+
+.hero-content .left{
+    display:flex;
+    flex-direction: column;
+
+}
+
+.hero-content .right {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
 }
 
 .hero-title {
